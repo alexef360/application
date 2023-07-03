@@ -1,0 +1,59 @@
+
+body{
+    
+    background-image: url(./pic.jpg);
+    background-color:black ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Chakra Petch', sans-serif;
+
+    }
+
+    h1{
+        text-align: center;
+        margin-bottom: 50px;
+        letter-spacing: 0.5em;
+        
+    }
+
+.calc{
+    background-color: #d3d3d3d3;
+    width: 350px;
+    padding: 50px;
+    margin: 80px auto;
+    border-radius: 10px;
+    font-size: large;
+    text-shadow: #353535 5px 5px 10px;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+div{
+    margin: 20px -10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+#button{
+    background-color: rgb(131, 128, 128);
+    color: black;
+    border-radius: 5px;
+    width: 140px;
+    height: 35px;
+    margin: 40px auto 0px;
+    padding: auto;
+    font-size: 17px ;
+    border: none;
+    box-shadow: #353535 5px 2px 5px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#button:hover {background-color: #636363}
+
+#button:active {
+  background-color: #353535;
+  box-shadow: #666 5 5 5;
+  transform: translateY(2px);
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+    <title>Discount Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <form class="calc">
+        <h1>Discount Calculator</h1>
+        <hr>
+        <div>
+            <label for="amount">Enter bill amount:</label>
+            <input class="text" type="number" name="amount" id="amount">
+        </div>
+        <div>
+            <label for="discount_percentage">Select discount %</label>
+            <select class="text" name="percentage" id="discount_percentage">
+                <option value="0">0%</option>
+                <option value="15">15%</option>
+                <option value="20">20%</option>
+                <option value="30">30%</option>
+                <option value="30">50%</option>
+            </select>
+        </div>
+        <div>
+            <label for="discount_amount">Discount amount:</label>
+            <input class="text" type="text" id="discount_amount" disabled>
+        </div>
+        <div>
+            <label for="pay">Final Price:</label>
+            <input class="text" type="text" name="pay" id="pay" disabled>
+        </div>
+        <hr>
+        <div>
+            <button id="button" type="submit" class="calculate">calculate</button>
+            <input id="button" type="reset" value="reset" class="reset">
+        </div>
+
+    </form>
+</body>
+
+</html>
